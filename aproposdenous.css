@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&family=Dancing+Script:wght@400..700&family=Rouge+Script&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  font-family: Alex Brush;
+}
+main {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.menu_main {
+  display: flex;
+  background-color: #142650;
+  height: 100px;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.funcoes_menu > ul > li {
+  display: inline-block;
+  font-size: 28px;
+  padding: 18px;
+}
+
+.funcoes_menu {
+  margin-right: 20px;
+}
+
+.gifrelogio {
+  margin: auto;
+}
+
+header {
+  z-index: 2;
+  position: sticky;
+  top: 0;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+.logo_menu {
+  padding-top: 10px;
+  padding-left: 270px;
+}
+
+/* Começo menu drop */
+
+.botão_do_menu {
+  margin-left: 100px;
+  margin-top: 5px;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.menudrop {
+  display: none;
+  position: absolute;
+  background-color: #0f1931;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  box-shadow: 0 0 2px #ffffff;
+  width: 200px;
+  margin-left: 20px;
+}
+
+.menu_botao:hover .menudrop {
+  display: block;
+}
+
+.menudrop > li {
+  color: #ffffff;
+  padding: 20px;
+  font-size: 24px;
+}
+.menudrop > li:hover {
+  background-color: #142650;
+}
+/* fim menu*/
+.imagemincial img {
+  height: 45%;
+}
+.historia img {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+.sobrenos {
+  margin: 60px;
+  padding: 50px;
+}
+.sobrenos,
+.nossahistoria,
+.brasil,
+.colecao,
+.rede_sociais {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+.sobrenos ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.texto {
+  padding: 40px;
+  text-align: justify;
+  font-size: 30px;
+}
+.nossahistoria {
+  margin: 60px;
+  padding: 50px;
+}
+.nossahistoria ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.brasil {
+  margin: 60px;
+  padding: 50px;
+}
+.brasil ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.colecao {
+  margin: 60px;
+  padding: 50px;
+}
+.colecao ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.rede_sociais {
+  margin: 60px;
+  padding: 50px;
+}
+.rede_sociais ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.imagens_redes {
+  padding: 30px;
+}
+.imagens_redes ul {
+  display: inline-flex;
+}
+footer {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: #142650;
+  color: white;
+  padding: 40px;
+  text-align: center;
+}
+
+.informacoes_empresa,
+.direitos_reservados {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.informacoes_empresa p {
+  margin-bottom: 10px;
+}
+
+.direitos_reservados p {
+  font-size: 18px;
+}

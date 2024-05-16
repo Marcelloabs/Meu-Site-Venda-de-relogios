@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="Login.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="menu_main">
+          <div class="logo_menu">
+            <a href="index.html"><img src="lo c relogio.png" /></a>
+          </div>
+          <div class="funcoes_menu">
+            <ul>
+              <li><a href="Login.html">Login</a></li>
+              <li><a href="ParceirosOficiais.html">Parceiros Oficiais</a></li>
+              <li><a href="aproposdenous.html">À Propos De Nous</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <form action="login.php" method="POST">
+          <h2>Login</h2>
+          <div class="input-group">
+            <label for="username">Usuário:</label>
+            <input type="text" id="username" name="username" required />
+          </div>
+          <div class="input-group">
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required />
+          </div>
+          <button type="submit">Entrar</button>
+          <div class="Cadastre-se">
+            Ainda não tem uma conta? <span>Criar conta</span>
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <div class="informacoes_empresa">
+        <p>Razão Social: Eclat LTDA</p>
+        <p>CNPJ: 00.000.000/0001-00</p>
+        <p>Endereço: Av. Faria Lima, 1000 - São Paulo/SP</p>
+      </div>
+      <div class="direitos_reservados">
+        <p>&copy; 2024 Eclat LTDA. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+  </body>
+</html>

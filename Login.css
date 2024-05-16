@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Dancing+Script:wght@400..700&family=Rouge+Script&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+ font-family: Alex Brush;
+}
+
+body{
+ background-image: url(imagens/fundologin.png);
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.menu_main {
+  display: flex;
+  background-color: #142650;
+  height: 100px;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.funcoes_menu > ul > li {
+  display: inline-block;
+  font-size: 28px;
+  padding: 18px;
+}
+
+.funcoes_menu {
+  margin-right: 20px;
+}
+
+.gifrelogio {
+  margin: auto;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+
+.logo_menu {
+  padding-top: 10px;
+  padding-left: 270px;
+}
+
+/* Começo menu drop */
+
+.botão_do_menu {
+  margin-left: 100px;
+  margin-top: 5px;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.menudrop {
+  display: none;
+  position: absolute;
+  background-color: #0f1931;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  box-shadow: 0 0 2px #ffffff;
+  width: 200px;
+  margin-left: 20px;
+}
+
+.menu_botao:hover .menudrop {
+  display: block;
+}
+
+.menudrop > li {
+  color: #ffffff;
+  padding: 20px;
+  font-size: 24px;
+}
+
+.menudrop > li:hover {
+  background-color: #142650;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+} 
+
+/*fim menu drop*/
+.container {
+  margin-top: 550px;
+  margin: 200px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.5); 
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  max-width: 400px;
+  backdrop-filter: blur(5px); 
+}
+
+.container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #142650;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.Cadastre-se{ 
+  padding: 15px 0px 10px 35px;
+}
+
+.Cadastre-se span{
+  cursor: pointer;
+  color: #0056b3;
+}
+footer {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #0e1932;
+  color: white;
+  padding: 40px;
+  text-align: center;
+}
+
+.informacoes_empresa, .direitos_reservados {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.informacoes_empresa p {
+  margin-bottom: 10px;
+}
+
+.direitos_reservados p {
+  font-size: 14px;
+}
